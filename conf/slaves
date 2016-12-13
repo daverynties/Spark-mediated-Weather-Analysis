@@ -1,0 +1,43 @@
+#
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+# A Spark Worker will be started on each of the machines listed below.
+dc01.cis.gvsu.edu
+dc02.cis.gvsu.edu
+dc03.cis.gvsu.edu
+dc04.cis.gvsu.edu
+dc05.cis.gvsu.edu
+dc06.cis.gvsu.edu
+dc07.cis.gvsu.edu
+dc08.cis.gvsu.edu
+dc09.cis.gvsu.edu
+dc10.cis.gvsu.edu
+dc11.cis.gvsu.edu
+dc12.cis.gvsu.edu
+dc13.cis.gvsu.edu
+dc14.cis.gvsu.edu
+dc15.cis.gvsu.edu
+dc16.cis.gvsu.edu
+dc17.cis.gvsu.edu
+dc18.cis.gvsu.edu
+dc19.cis.gvsu.edu
+dc20.cis.gvsu.edu
+dc21.cis.gvsu.edu
+dc22.cis.gvsu.edu
+dc23.cis.gvsu.edu
+dc24.cis.gvsu.edu
+dc25.cis.gvsu.edu
