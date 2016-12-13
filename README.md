@@ -12,7 +12,7 @@ initialize and startup the cloud
     
 execute your program (in the cloud).  In this example, output goes to eos22.
 
-    ../bin/spark-submit --master=spark://eos22.cis.gvsu.edu:7077 PySparkWordCount.py Alice_in_Wonderland.txt
+    ../bin/spark-submit --master=spark://eos22.cis.gvsu.edu:7077 reduce.py "/home/NOAA_DATA/2008/*.gz","/home/NOAA_DATA/2009/*.gz","/home/NOAA_DATA/2010/*.gz","/home/NOAA_DATA/2011/*.gz","/home/NOAA_DATA/2012/*.gz"
     
 shutdown the cloud
 
