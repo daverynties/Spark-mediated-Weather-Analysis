@@ -27,10 +27,10 @@ if __name__ == "__main__":
     sc = spark.sparkContext
     lines = sc.textFile(sys.argv[1])
 
-    temp_data = lines.flatMap(get_data).reduceByKey(lambda a,b : a if int(a) > int(b) else b)
-    temp_data = temp_data.collect();
+    max_temp = lines.flatMap(get_data).reduceByKey(lambda a,b : a if int(a) > int(b) else b)
+    max_temp = max_temp.collect();
 
-for (year, temp) in temp_data:
+for (year, temp) in max_temp:
     print(year + ":" + temp)
 
 spark.stop()
